@@ -1,0 +1,89 @@
+::placeholder{
+  background-image: url('/assets/search-solid.svg');
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+  background-position: 36%;
+  background-size: 6%;
+}
+
+input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    background-color: #EFEFEF
+}
+
+.postuserfont {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+.storyphoto {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid rgb(238, 39, 82);
+  margin-right: 7px;
+}
+
+.storytext {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  color: black;
+}
+
+.rightpanel{
+  border: none;
+  background-color: #ffffff;
+}
+.rightpanellinks {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.rightpanellinks:hover {
+  text-decoration: none;
+  color: lightgrey;
+}
+#sticky-sidebar{
+  position: fixed;
+}
+
+/** General Settings **/
+
+body{
+  padding: 4rem;
+  background-color: #fafafa;
+}
+/** Navbar **/
+
+.navbar{
+  height: 54px;
+  background-color: #ffffff;
+}
+
+.logo{margin-left: 192px;}
+
+/** Middle Area **/
+
+.middlearea{
+ max-height: 200px !important;
+}
+
+.card{
+  margin: 10px 0px;
+}
+.card-header, .card-footer{
+  background-color: rgba(255,255,255,1);
+}
+.card-header span ~ span{
+  float: right;
+}
+
+.card-footer{
+  border-top: 1px solid rgba(239,239,239,1);
+}
